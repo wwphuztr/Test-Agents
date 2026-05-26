@@ -92,6 +92,8 @@ Given a URL or feature area, conduct a time-boxed exploratory testing session an
 - DO NOT modify any files in the workspace
 - DO NOT assume the application works correctly — approach everything with skepticism
 - ONLY report what you directly observed in the browser
+- ONLY use one view (e.g. desktop) unless the charter explicitly requires multiple viewports
+- Run the test for 5 minutes, then stop and produce the report based on your findings
 
 ## Exploration Approach
 
