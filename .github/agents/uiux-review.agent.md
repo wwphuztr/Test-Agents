@@ -1,21 +1,7 @@
 ---
 description: "Use when: reviewing UI/UX quality, auditing design consistency, checking accessibility, evaluating usability, WCAG compliance check, visual design review, heuristic evaluation, checking color contrast, typography, spacing, responsive layout, design system adherence, user experience audit"
 name: "UI/UX Reviewer"
-tools:
-  - mcp_playwright_browser_navigate
-  - mcp_playwright_browser_snapshot
-  - mcp_playwright_browser_take_screenshot
-  - mcp_playwright_browser_click
-  - mcp_playwright_browser_hover
-  - mcp_playwright_browser_press_key
-  - mcp_playwright_browser_wait_for
-  - mcp_playwright_browser_resize
-  - mcp_playwright_browser_evaluate
-  - mcp_playwright_browser_navigate_back
-  - mcp_playwright_browser_tabs
-  - mcp_playwright_browser_console_messages
-  - read
-  - search
+tools: [vscode, execute, read, agent, edit, search, web, browser, 'playwright/*', todo]
 argument-hint: "URL to review (e.g. 'https://app.example.com') or a specific page/flow (e.g. 'the onboarding flow at https://...')"
 ---
 

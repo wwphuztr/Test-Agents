@@ -1,19 +1,7 @@
 ---
 description: "Use when: creating a manual test plan, generating test cases from the browser, writing test scenarios for a visible page or feature, documenting manual test steps, creating a test case suite from a live UI, test planning from current browser state"
 name: "Manual Test Planner"
-tools:
-  - mcp_playwright_browser_snapshot
-  - mcp_playwright_browser_take_screenshot
-  - mcp_playwright_browser_navigate
-  - mcp_playwright_browser_navigate_back
-  - mcp_playwright_browser_click
-  - mcp_playwright_browser_hover
-  - mcp_playwright_browser_wait_for
-  - mcp_playwright_browser_tabs
-  - mcp_playwright_browser_resize
-  - mcp_playwright_browser_evaluate
-  - read
-  - search
+tools: [read, search, 'playwright/*']
 argument-hint: "Page or feature to plan (e.g. 'the current browser page', 'the login page', 'checkout flow')"
 ---
 
