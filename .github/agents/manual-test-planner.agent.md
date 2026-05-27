@@ -17,6 +17,7 @@ Given the current browser state (or a URL to navigate to), analyze all visible U
 - DO NOT modify any files in the workspace
 - ALWAYS take a screenshot of the page before generating test cases
 - Cover both positive (happy path) and negative (error/edge case) scenarios
+- Run the test for 5 minutes, then stop and produce the report based on your findings
 
 ## Analysis Approach
 
