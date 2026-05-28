@@ -74,7 +74,7 @@ sequenceDiagram
     participant PF as .prompt.md file
     participant BR as Playwright Browser
 
-    Dev->>CP: Select agent + type URL
+    Tester->>CP: Select agent + type URL
     CP->>AF: Load persona definition<br/>(role, constraints, methodology)
     CP->>PF: Load prompt template<br/>(structured task instructions)
     CP->>BR: Open browser, take screenshot
@@ -83,7 +83,7 @@ sequenceDiagram
         CP->>BR: navigate / click / snapshot / resize
         BR-->>CP: Observations & evidence
     end
-    CP-->>Dev: Structured Report<br/>(Markdown with severity ratings)
+    CP-->>Tester: Structured Report<br/>(Markdown with severity ratings)
 ```
 
 ---
